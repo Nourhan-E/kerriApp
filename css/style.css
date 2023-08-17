@@ -1,0 +1,746 @@
+ body{
+    font-family: 'Nunito', sans-serif;
+ }
+ h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+ }
+:root{
+    --main-color:#e65f78;
+    --text-color:#6c757d;
+    scroll-behavior: auto;
+}
+
+/* html{
+    scroll-padding-top: 80px;
+} */
+.section-subtitle{
+    max-width: 500px;
+}
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    /* background-color: #fff; */
+  }
+
+  .icoTop{
+    z-index: 25425;
+    cursor: pointer;
+    color: var(--main-color);
+  }
+
+  .sidebar{
+    width: 25%;
+    height: 250px;
+    /* background-color: #2b2424; */
+    position: fixed;
+    left: 0;
+    top: 40%;
+    z-index: 25484;
+    display: flex;
+    align-items: self-start;
+  }
+  .innerBox{
+    width: 80%;
+    height: 100%;
+    background-color: #222;
+  }
+  .innerBox .box{
+    width: 40px;
+    height: 40px;
+  }
+  .setting{
+    width: 20%;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+  }
+
+
+
+/* start head section */
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.651)), url(../images-20230624T133753Z-001/images/header-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+  
+}
+.navbar{
+    transition: all 2s;
+}
+#home .navbar-nav li a.active{
+    color:var(--main-color) !important;
+}
+#home .navbar-nav li a{
+    color: #fff;
+}
+#home .nav-item .nav-link{
+    color: #fff;
+}
+#home .nav-item .nav-link:hover{
+    color:var(--main-color);
+}
+.layer h1::after {
+    content: "|";
+    animation: typing 10s  infinite;
+}
+@keyframes typing {
+    0% {
+        content: " A|";
+    }
+
+    1% {
+        content: " A |";
+    }
+
+    2% {
+        content: " A G|";
+    }
+
+    3% {
+        content: " A Gr|";
+    }
+
+    4% {
+        content: " A Gra|";
+    }
+
+    5% {
+        content: " A Grap|";
+    }
+
+    6% {
+        content: " A Graph|";
+    }
+
+    7% {
+        content: " A Graphi|";
+    }
+
+    8% {
+        content: " A Graphic|";
+    }
+
+    9% {
+        content: " A Graphic |";
+    }
+
+    10% {
+        content: " A Graphic D|";
+    }
+
+    11% {
+        content: " A Graphic De|";
+    }
+
+    13% {
+        content: " A Graphic Des|";
+    }
+
+    14% {
+        content: " A Graphic Desi|";
+    }
+
+    15% {
+        content: " A Graphic Desig|";
+    }
+
+    16% {
+        content: " A Graphic Design|";
+    }
+
+    17% {
+        content: " A Graphic Designe|";
+    }
+
+    18% {
+        content: " A Graphic Designer|";
+    }
+
+    19% {
+        content: " A Graphic Designer.|";
+    }
+
+    20% {
+        content: " A Graphic Designer.|";
+    }
+
+    21% {
+        content: " A Graphic Designer.|";
+    }
+
+    22% {
+        content: " A Graphic Designer|";
+    }
+
+    23% {
+        content: " A Graphic Designe|";
+    }
+
+    24% {
+        content: " A Graphic Design|";
+    }
+
+    25% {
+        content: " A Graphic Desig|";
+    }
+
+    25% {
+        content: " A Graphic Desi|";
+    }
+
+    26% {
+        content: " A Graphic Des|";
+    }
+
+    27% {
+        content: " A Graphic De|";
+    }
+
+    28% {
+        content: " A Graphic D|";
+    }
+
+    29% {
+        content: " A Graphic |";
+    }
+
+    30% {
+        content: " A Graphic|";
+    }
+
+    31% {
+        content: " A Graphi|";
+    }
+
+    32% {
+        content: " A Graph|";
+    }
+
+    33% {
+        content: " A Grap|";
+    }
+
+    34% {
+        content: " A Gra|";
+    }
+
+    35% {
+        content: " A Gr|";
+    }
+
+    36% {
+        content: " A G|";
+    }
+
+    37% {
+        content: " A |";
+    }
+
+    38% {
+        content: " A P|";
+    }
+
+    39% {
+        content: " A Ph|";
+    }
+
+    40% {
+        content: " A Pho|";
+    }
+
+    41% {
+        content: " A Phot|";
+    }
+
+    42% {
+        content: " A Photo|";
+    }
+
+    43% {
+        content: " A Photog|";
+    }
+
+    44% {
+        content: " A Photogr|";
+    }
+
+    45% {
+        content: " A Photogra|";
+    }
+
+    46% {
+        content: " A Photograp|";
+    }
+
+    47% {
+        content: " A Photograph|";
+    }
+
+    48% {
+        content: " A Photographe|";
+    }
+
+    49% {
+        content: " A Photographer|";
+    }
+
+    50% {
+        content: " A Photographer.|";
+    }
+
+    51% {
+        content: " A Photographer.|";
+    }
+
+    52% {
+        content: " A Photographer.|";
+    }
+
+    53% {
+        content: " A Photographer|";
+    }
+
+    54% {
+        content: " A Photographe|";
+    }
+
+    55% {
+        content: " A Photograph|";
+    }
+
+    56% {
+        content: " A Photograp|";
+    }
+
+    57% {
+        content: " A Photogra|";
+    }
+
+    58% {
+        content: " A Photogr|";
+    }
+
+    59% {
+        content: " A Photog|";
+    }
+
+    60% {
+        content: " A Photo|";
+    }
+
+    61% {
+        content: " A Phot|";
+    }
+
+    62% {
+        content: " A Pho|";
+    }
+
+    63% {
+        content: " A Ph|";
+    }
+
+    64% {
+        content: " A P|";
+    }
+
+    65% {
+        content: " A |";
+    }
+
+    66% {
+        content: " A|";
+    }
+
+    67% {
+        content: " |";
+    }
+
+    68% {
+        content: "K|";
+    }
+
+    69% {
+        content: "Ke|";
+    }
+
+    70% {
+        content: "Ker|";
+    }
+
+    71% {
+        content: "Kerr|";
+    }
+
+    72% {
+        content: "Kerri|";
+    }
+
+    73% {
+        content: "Kerri |";
+    }
+
+    74% {
+        content: "Kerri D|";
+    }
+
+    75% {
+        content: "Kerri De|";
+    }
+
+    76% {
+        content: "Kerri Deo|";
+    }
+
+    77% {
+        content: "Kerri Deo.|";
+    }
+
+    78% {
+        content: "Kerri Deo.|";
+    }
+
+    79% {
+        content: "Kerri Deo.|";
+    }
+
+    80% {
+        content: "Kerri Deo|";
+    }
+
+    81% {
+        content: "Kerri De|";
+    }
+
+    82% {
+        content: "Kerri D|";
+    }
+
+    83% {
+        content: "Kerri |";
+    }
+
+    84% {
+        content: "Kerri|";
+    }
+
+    85% {
+        content: "Kerr|";
+    }
+
+    86% {
+        content: "Ker|";
+    }
+
+    87% {
+        content: "Ke|";
+    }
+
+    88% {
+        content: "K|";
+    }
+
+    89% {
+        content: "|";
+    }
+
+    90% {
+        content: "|";
+    }
+
+    91% {
+        content: "|";
+    }
+
+    92% {
+        content: "|";
+    }
+
+    93% {
+        content: "|";
+    }
+
+    94% {
+        content: "|";
+    }
+
+    95% {
+        content: "|";
+    }
+
+    96% {
+        content: "|";
+    }
+
+    97% {
+        content: "|";
+    }
+
+    98% {
+        content: "|";
+    }
+
+    99% {
+        content: "|";
+    }
+
+    100% {
+        content: "|";
+    }
+}
+
+.cv-btn{
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: #fff;
+}
+.cv-btn:hover{
+    color: black;
+    background-color: #fff;
+}
+.down-icon{
+    height: 45px;
+    width: 27px;
+    border: 2px solid white;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    border-radius: 15px;
+    transform: translateX(-50%);
+    animation: scorol 3s infinite ease-in-out;
+}
+.down-icon::after{
+    content:"" ;
+    width: 3px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 10px;
+    transform: translateX(-50%);
+    
+}
+@keyframes scorol {
+    0%{
+        bottom: 50px;
+    }
+    10%
+    {
+        bottom: 80px;
+    }
+    20%{
+        bottom: 50px;
+    }
+    30%{
+        bottom: 80px;
+    }
+    40%{
+        bottom: 50px;
+    }
+    50%{
+        bottom: 70px;
+    }
+    60%{
+        bottom: 50px;
+    }
+    70%{
+        bottom: 60px;
+    }
+    80%{
+        bottom: 50px;
+    }
+    90%{
+        bottom: 50px;
+    }
+    100%{
+        bottom: 50px;
+    }
+}
+.fixeed-icon .setting-icon{
+    position: absolute;
+    top: 20%;
+    left: -3px;
+    background-color: #2b2424;
+    padding: 10px 15px;
+}
+.fixeed-icon .up-icon{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--main-color);
+    padding: 8px ;
+}
+/* end head section */ 
+
+
+/* start About section */
+
+.about-content h3 span{
+    color: var(--main-color);
+}
+.about-content p{
+    color: var(--text-color);
+}
+.socials ul li {
+    display: inline-block;
+}
+.socials a {
+    color: #1e1e1e;
+    text-decoration: none;
+    /* transition: all 0.5s ease-in-out; */
+  } 
+  .socials .ico-circle {
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    padding-top: 5px;
+    border-radius: 50%;
+    line-height: 1.6;
+    margin: 0 15px 0 0;
+    border: 2px solid #d4d4d4;
+    transition: all 1s;
+  }
+  .socials .ico-circle:hover{
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+  }
+
+/* end About section */
+
+
+/* start services section  */
+
+#Services p{
+    color: var(--text-color);
+}
+.services-boxes {
+    border: 1px solid #e8e8e8;
+  }
+.services-boxes-icon i {
+    font-size: 70px;
+    color: var(--main-color);
+}
+.title-left{
+    font-size: 2rem;
+    position: relative;
+}
+
+.title-left::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color:var(--main-color);
+    margin: 10 auto;
+    align-self: start;
+    width: 50px;
+    bottom: -20px;
+    left: 120px;
+    transition: all 0.5s;
+ }
+ .services-boxes:hover .title-left{
+    width: 80px;
+  
+ }
+
+ 
+  .services-boxes p{
+    color: var(--text-color);
+  }
+
+
+  /* end services section  */
+
+  .btn-custom{
+    border: 2px solid;
+    background-color: var(--main-color);
+  }
+  .button .btn-custom {
+    padding: 15px 32px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  /* start client section */
+  #Client{
+    height: 100vh;
+  }
+  #Client  p{
+    color: var(--text-color);
+  }
+ .client-title{
+    padding: 100px 0px 50px 0px;
+ }
+ .client-content{
+    /* padding-bottom: 100px; */
+ }
+  .client-content i{
+    color: var(--main-color);
+    font-size: 70px;
+  }
+  .client-content h5{
+    font-size: 16px;
+  }
+  .carousel-indicators {
+    position: absolute !important;
+    bottom: -50px;
+}
+#carouselExampleDark .carousel-indicators button.active {
+    width: 20px;
+    border-radius: 20px;
+    opacity: 1;
+    height: 6px;
+    border: 1px solid transparent;
+    background-color: var(--main-color);
+}
+#carouselExampleDark .carousel-indicators button {
+    width: 12px;
+    height: 6px;
+    background-color: var(--main-color);
+    opacity: 0.5;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+
+/* end client section */
+
+/* start Works section */
+
+#Portfolio{
+    height: 100vh;
+}
+.Works-title{
+     padding: 100px 0px 50px 0px;
+
+}
+.portfolio-boxes {
+    border: 1px solid #e8e8e8;
+  }
+
+  .portfolio-boxes .layer {
+    background-color: rgba(0, 0, 0, 0.719) !important;
+    opacity: 0;
+   position: absolute;
+   top:0%;
+   transition: all 0.3s;
+}
+.portfolio-boxes:hover .layer {
+    top: 50%;
+    transform: translate(0, -50%);
+    opacity: 1;
+}
+.portfolio-boxes img{
+    transition: all 0.3s;
+
+}
+.portfolio-boxes img:hover{
+    transform: scale(1.2);
+}
+
+
+/* end Works section */
